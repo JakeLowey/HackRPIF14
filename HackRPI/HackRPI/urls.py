@@ -7,7 +7,9 @@ urlpatterns = patterns('',
     # url(r'^$', 'HackRPI.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
+    url(r'^$', 'ConnHackEd.views.index', name='index'),
+
     url(r'^admin/', include(admin.site.urls)),
 
-    url(r'^$', 'HackRPI.views.index', name='index'),
+
 )
