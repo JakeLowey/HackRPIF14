@@ -24,7 +24,7 @@ DEBUG = True
 
 TEMPLATE_DEBUG = DEBUG
 
-ALLOWED_HOSTS = ['hackconnections.azurewebsites.net']
+ALLOWED_HOSTS = ['hackconnections.azurewebsites.net','*']
 
 #ADMINS = (
     # ('Your Name', 'your_email@example.com'),
