@@ -26,11 +26,11 @@ TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['hackconnections.azurewebsites.net','*']
 
-#ADMINS = (
-    # ('Your Name', 'your_email@example.com'),
-#)
+ADMINS = (
+    ('Jake Lowey', 'loweyj@rpi.edu'),
+)
 
-#MANAGERS = ADMINS
+MANAGERS = ADMINS
 
 # DATABASES = {
 #     'default': {
