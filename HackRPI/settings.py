@@ -56,14 +56,14 @@ WSGI_APPLICATION = 'HackRPI.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'HackRPI',
-        'HOST': 'o99jonehn9.database.windows.net'
-    }
-}
+#
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'sql_server.pyodbc',
+#         'NAME': 'HackRPI',
+#         'HOST': 'o99jonehn9.database.windows.net'
+#     }
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
