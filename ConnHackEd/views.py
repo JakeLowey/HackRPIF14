@@ -4,4 +4,4 @@ from django.shortcuts import render_to_response
 
 
 def login_url(request):
-    return render_to_response('registration/login.html')
+    return render_to_response('index.html')
