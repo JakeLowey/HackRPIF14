@@ -1,0 +1,28 @@
+{% load staticfiles %}
+
+{%  load staticfiles %}
+<link type="text/css" rel="stylesheet" href="{%  static "ConnHackEd/style.css" %}">
+
+<html>
+  <head>
+  </head>
+
+  <body>
+      <div id="header">
+        <h1>
+            HackRPI!!
+            <span id="h_login">
+                {{ user }}
+                {% if user.is_anonymous %}
+                    <a href="{% url 'django.contrib.auth.views.login' %}">login</a>
+                {% else %}
+                    <a href="{% url 'django.contrib.auth.views.logout' %}">logout</a>
+                {% endif %}
+            </span>
+        </h1>
+      </div>
+
+    {% block content %}
+    {% endblock %}
+  </body>
+</html>
