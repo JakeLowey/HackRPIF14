@@ -169,16 +169,6 @@ LOGGING = {
 }
 
 
-#
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'sql_server.pyodbc',
-#         'NAME': 'HackRPI',
-#         'HOST': 'o99jonehn9.database.windows.net'
-#     }
-# }
+LOGIN_REDIRECT_URL = '/user/login'
 
-
-#LOGIN_REDIRECT_URL = '/user/login'
-
-#LOGIN_URL = 'django.contrib.auth.views.login'
+LOGIN_URL = 'django.contrib.auth.views.login'
